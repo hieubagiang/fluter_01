@@ -38,13 +38,17 @@ class MyHomePage extends StatelessWidget {
             child: Container(
                 child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
+
               children: [
-                Text(
-                  "Communication,\nSociety and\nMedia",
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold),
+                Container(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "Communication,\nSociety and\nMedia",
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold),
+                  ),
                 ),
               ],
             )),
@@ -88,7 +92,7 @@ class MyHomePage extends StatelessWidget {
             color: Colors.red,
 
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
+                  mainAxisAlignment: MainAxisAlignment.center,
 
                   children: <Widget>[
                     Container(
@@ -113,7 +117,13 @@ class MyHomePage extends StatelessWidget {
                   ],
                 )),
           ),
-        ]),
+                    Expanded(
+    flex: 1,
+
+    child: Container(
+
+    )),
+    ]),
       )),
     );
   }
@@ -133,6 +143,6 @@ class MyHomePage extends StatelessWidget {
 
   Widget _baseText(String title) => Text('$title',
       style: TextStyle(
-          color: Colors.black, fontSize: 10, fontWeight: FontWeight.bold),
+          color: Colors.black, fontSize: 12 , fontWeight: FontWeight.bold),
       textAlign: TextAlign.start);
 }
