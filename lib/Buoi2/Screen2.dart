@@ -51,12 +51,18 @@ flex: 2,
             ),
           ),
           Expanded(
-            
+
             flex: 1,
             child: Container(
               padding: EdgeInsets.only(top:20),
+margin: EdgeInsets.only(bottom: 20),
               child: Column(
-                children: <Widget>[
+              mainAxisAlignment: MainAxisAlignment.spaceBetween
+              ,
+
+                children:
+                <Widget>[
+
                   Text(
                     "Get The Fastest\nDeleviery Food For You",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
@@ -85,7 +91,7 @@ flex: 2,
                     Container(
 
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                        color: Colors.yellow,
 
                           ),
                       padding: const EdgeInsets.all(10),
@@ -93,7 +99,7 @@ flex: 2,
                         children: <Widget>[
                           Text("Get started  >>",
                               style: TextStyle(
-                                  color: Colors.black, fontSize: 25))
+                                  color: Colors.black, fontSize: 20))
                         ],
                       ),
                     ),
