@@ -67,7 +67,7 @@ class _SignInPageState extends State<SignInPage> {
                       obscureText: true,
                     ),
                     SizedBox(height: 40.0),
-                    Row(
+                    Row(//
                       children: <Widget>[
                         IconButton(
                           icon: Icon(
