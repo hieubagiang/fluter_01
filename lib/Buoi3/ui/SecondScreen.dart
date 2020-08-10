@@ -142,13 +142,15 @@ class _SecondScreenState extends State<SecondScreen> {
                 color: Colors.purple,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Container(
+                        alignment: Alignment.bottomLeft,
                         child: Icon(Icons.keyboard_arrow_up, color: Colors.blue, size: 30),
                         margin: const EdgeInsets.only(right: 10)),
                     Text("Tenant",
                         style: TextStyle(
+
                           color: Colors.blue,
                             fontSize: 25, fontWeight: FontWeight.bold)),
                   ],
