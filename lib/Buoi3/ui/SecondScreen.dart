@@ -4,7 +4,7 @@ class SecondScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => _SecondScreenState();
 }
-
+oiefczx
 class _SecondScreenState extends State<SecondScreen> {
   GlobalKey<FormState> _textFormKey = GlobalKey<FormState>();
   String firstName, email,passWord;
